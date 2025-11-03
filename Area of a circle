@@ -1,0 +1,23 @@
+
+# calculation of bmi
+Name = input("Enter your full name: ")
+Age = int(input("Enter age: "))
+Weight = float(input("Enter your weight in kilograms: "))
+Height = float(input("Enter your height in meters: "))
+Bmi = Weight / (Height**2)
+print(f"\n {Name}, {Age}")
+print(f"your Bmi is {Bmi:.2f}.")
+
+# Area of a Triangle
+Base = float(input("Enter the Base of the triangle (in cm): "))
+Height = float(input("Enter the Height of the triangle (in cm): "))
+triangle_area = 0.5 * Base * Height
+print(f"\nThe area of the triangle is {triangle_area:.2f} square cm.")
+
+# Area of a Circle
+import math
+Radius = float(input("Enter the Radius of the circle (in cm): "))
+circle_area = math.pi * (Radius ** 2)
+print(f"\nThe area of the circle is {circle_area:.2f} square cm.")
+
+
